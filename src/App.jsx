@@ -34,7 +34,6 @@ const WeatherDetails = ({icon, temp, city,
         <span>{log}</span>
       </div>
     </div>
-
     {/* humidity */}
     <div className="data_container"> 
       <div className="element">
