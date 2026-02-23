@@ -14,6 +14,7 @@ import humidityIcom from './assets/humidity.png'
 {/* Third Props */}
 const WeatherDetails = ({icon, temp, city, 
   country, lat, log, humidity, wind}) => {
+    
   return (
   <>
     <div className='image'>
@@ -34,7 +35,6 @@ const WeatherDetails = ({icon, temp, city,
         <span>{log}</span>
       </div>
     </div>
-    
     {/* humidity */}
     <div className="data_container"> 
       <div className="element">
